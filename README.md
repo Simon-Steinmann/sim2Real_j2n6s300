@@ -24,11 +24,7 @@ source ~/.bashrc
 #installing controllers
 sudo apt-get install ros-melodic-ros-controllers*
 ```
-### updates gazebo (updates it to 9.11)
-```bash
-sudo apt-get install curl
-curl -sSL http://get.gazebosim.org | sh
-```
+
 
 ### install Moveit 
 ```bash
