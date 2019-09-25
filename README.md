@@ -55,3 +55,15 @@ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+## Launching & Training
+1. Launch gazebo and spawn the Jaco2 robot:
+```bash
+roslaunch kinova_gazebo robot_launch.launch kinova_robotType:=j2n6s300
+```
+
+2. start the training script:
+```bash
+roslaunch j2n6s300_ml start_training.launch
+```
+
